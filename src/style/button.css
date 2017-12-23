@@ -1,0 +1,16 @@
+.button {
+    color:white;
+    background: black;
+    transition: all 0.2s;
+    padding: 10px;
+}
+.button:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.8);
+    transform: scale(1.05);
+}
+
+.button.inverse {
+    color:black;
+    background: transparent;
+}
