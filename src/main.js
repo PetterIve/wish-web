@@ -6,7 +6,8 @@ import App from './App';
 import router from './router';
 import store from './store';
 
-import style from './style'
+/* eslint-disable no-unused-vars */
+import style from './style';
 
 Vue.config.productionTip = false;
 

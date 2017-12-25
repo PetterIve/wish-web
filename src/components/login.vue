@@ -22,11 +22,10 @@ export default {
     },
     methods: {
         submit() {
-            console.log(this.username);
+            this.$router.push('/events');
         },
         register() {
-            console.log('Register')
-        }
+        },
     },
 };
 </script>

@@ -24,11 +24,9 @@ export default {
     },
     methods: {
         submit() {
-            console.log(this.username);
         },
         register() {
-            console.log('Register');
-        }
+        },
     },
 };
 </script>
